@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Complex Form Build</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <nav>
+        <span>FormBuilder</span>
+        <span> beta</span>
+        <div class="navbutton">Self Referrals</div>
+        <div class="navbutton">Logout</div>
+    </nav>
+    <header class ='midwrapper'>
+        <div>JSON is valid (probably)</div>
+        <div>
+            <div>Layout Options</div>
+            <button>Load a Layout</button>
+            <button>Save Current</button>
+            <button>Success/Failure</button>
+            <button>Edit Header</button>
+            <button>Edit Footer</button>
+            <button>Add CSS</button>
+        </div>
+        <form>
+            <input type="text" label ="formname" value="test form">
+            <button>Revert to default</button>
+        </form>
+        <form>
+            <div>
+                <button>Save and exit</button>
+                <button>Preview</button>
+            </div>
+        </form>
+    </header>
+    <main>
+        <section class ="midwrapper mainflex">
+            <div class ="elementpane">
+                <button>Example</button>
+            </div>
+            <div class ="formpane">
+                <div>
+                    <h1>Example</h1>
+                    <p>pat_example</p>
+                    <div class="formattributes">
+                        <div class ="greybackground">Default</div>
+                        <div class ="orangebackground">Required</div>
+                        <div class ="greenbackground">Mapped</div>
+                        <button>Edit</button>
+                        <button>Validators</button>
+                        <button>Filters</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class ='midwrapper'>
+        <form>
+            <input type="submit" value="Save as draft">
+            <input type="submit" value="Deploy to live">
+        </form>
+    </footer>
+</html>
